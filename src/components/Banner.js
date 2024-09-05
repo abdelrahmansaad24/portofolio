@@ -11,11 +11,11 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Graphic Designer", "Video Editor"];//, "UI/UX Designer" ];
+  const toRotate = [ "Web Developer", "Web Designer", "Android Developer", "Software Engineer" ];
   const period = 2000;
   const handleW = (event) => {
     event.preventDefault();
-    window.open("https://wa.me/+201099845832","_blank")
+    window.open("https://wa.me/+201154154046","_blank")
     //window.location.href = 'https://reactjs.org';
   };
 
@@ -61,9 +61,13 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Mohamed`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Abdelrahman`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "Android Developer", "Software Engineer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>
-                    Hi, I’m Mohamed Gomaa, a passionate graphic designer with a knack for transforming ideas into visually stunning designs. With a background in [mention your education or experience], I specialize in [mention your specialties, e.g., branding, web design, illustration]. My work is driven by a love for creativity and a commitment to delivering high-quality, impactful visuals. When I’m not designing, you can find me on youtube. Let’s create something amazing together!
+                    I am a highly skilled and motivated software engineer. My expertise lies in Flutter, Angular, React, Spring Boot,
+                    and Node JS. I have a strong understanding of software development principles and a proven track record of
+                    delivering high-quality code within demanding timeframes. I thrive in collaborative environments and possess
+                    excellent communication skills, allowing me to effectively work with cross-functional teams and stakeholders to
+                    gather requirements and deliver software solutions that meet or exceed expectations.
                   </p>
                   <button onClick={handleW}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}

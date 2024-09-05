@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../assets/img/Screenshot 2024-09-04 192530.png';
-import navIcon1 from '../assets/img/youtube-app-white-icon.webp';
+import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
+import navIcon3 from '../assets/img/untitled.svg';
 import { HashLink } from 'react-router-hash-link';
 import {
     BrowserRouter as Router,Routes, Route , useNavigate
@@ -14,16 +14,29 @@ export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
     const [scrolled, setScrolled] = useState(false);
 
-    const handleY = (event) => {
+    const handleL = (event) => {
         event.preventDefault();
-        window.open("http://www.youtube.com","_blank")
+        window.open("https://www.linkedin.com/in/abdelrhman-saad-93b6451bb/","_blank")
         //window.location.href = 'https://reactjs.org';
     };
     const handleW = (event) => {
         event.preventDefault();
-        window.open("https://wa.me/+201099845832","_blank")
+        window.open("https://wa.me/+201154154046","_blank")
         //window.location.href = 'https://reactjs.org';
     };
+    const handleF = (event) => {
+        event.preventDefault();
+        window.open("https://facebook.com/abdosaad24","_blank")
+        //window.location.href = 'https://reactjs.org';
+    };
+    const handleG = (event) => {
+        event.preventDefault();
+        window.open("https://github.com/abdelrahmansaad24","_blank")
+        //window.location.href = 'https://reactjs.org';
+    };
+
+
+
 
     useEffect(() => {
         const onScroll = () => {
@@ -48,7 +61,7 @@ export const NavBar = () => {
             <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
                 <Container>
                     <Navbar.Brand href="/">
-                        <h5 className="name">Mohamed Gomaa</h5>
+                        <h5 className="name">Abdelrahman Saad</h5>
                         {/*<img src={logo} alt="Logo" />*/}
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav">
@@ -62,9 +75,9 @@ export const NavBar = () => {
                         </Nav>
                         <span className="navbar-text">
               <div className="social-icon">
-                <a href="#"><img src={navIcon1} alt="" onClick={handleY}/></a>
-                <a href="#"><img src={navIcon2} alt="" /></a>
-                <a href="#"><img src={navIcon3} alt="" /></a>
+                <a><img src={navIcon1} alt="" onClick={handleL}/></a>
+                <a><img src={navIcon2} alt="" onClick={handleF}/></a>
+                <a><img src={navIcon3} alt="" onClick={handleG}/></a>
               </div>
               <HashLink to='#connect' onClick={handleW}>
                 <button className="vvd"><span>Let’s Connect</span></button>

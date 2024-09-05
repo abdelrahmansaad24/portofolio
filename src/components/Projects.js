@@ -67,7 +67,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>As a passionate software engineer with a strong background in Computer and Systems Engineering, I thrive on building innovative and practical solutions through software development. My diverse skill set spans across web, mobile, and backend technologies, including React, Node.js, Flutter, Angular, Spring Boot, and Java. Over the years, I’ve worked on a variety of projects ranging from hotel reservation systems and car booking apps to Gmail clones and dynamic web-based applications. Each project is a reflection of my dedication to crafting efficient, scalable, and user-friendly applications. I invite you to explore my work, where creativity meets technology!As a passionate software engineer with a strong background in Computer and Systems Engineering, I thrive on building innovative and practical solutions through software development. My diverse skill set spans across web, mobile, and backend technologies, including React, Node.js, Flutter, Angular, Spring Boot, and Java. Over the years, I’ve worked on a variety of projects ranging from hotel reservation systems and car booking apps to Gmail clones and dynamic web-based applications. Each project is a reflection of my dedication to crafting efficient, scalable, and user-friendly applications. I invite you to explore my work, where creativity meets technology!</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
@@ -109,7 +109,22 @@ export const Projects = () => {
                       }</Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>Hotel Reservation System
+                        Technologies Used: Angular, Spring Boot, SQL
+                        Description: Developed a comprehensive hotel reservation system that allows users to book rooms, manage reservations, and process payments. Implemented features such as room availability checks, user authentication, and payment gateway integration.
+                        Key Contributions: Designed the front-end using Angular, developed RESTful APIs with Spring Boot, and managed the database with SQL.
+                        Car Rental Application
+                        Technologies Used: Flutter, Firebase, Node.js
+                        Description: Created a cross-platform car rental application that enables users to rent cars, view rental history, and manage their profiles. Integrated Firebase for real-time database management and authentication.
+                        Key Contributions: Built the user interface with Flutter, handled backend services with Node.js, and implemented real-time data synchronization with Firebase.
+                        Gmail Clone
+                        Technologies Used: React, Node.js, MongoDB
+                        Description: Developed a Gmail clone that replicates core functionalities such as sending and receiving emails, managing contacts, and organizing emails into folders. Ensured a responsive and user-friendly interface.
+                        Key Contributions: Developed the front-end with React, created backend services with Node.js, and used MongoDB for data storage.
+                        Dropbox Integration
+                        Technologies Used: Java, Spring Boot, Dropbox API
+                        Description: Integrated Dropbox functionality into an existing application, allowing users to upload, download, and manage files directly from their Dropbox accounts. Implemented secure authentication and file handling.
+                        Key Contributions: Utilized Java and Spring Boot to integrate Dropbox API, ensuring seamless file management and secure data transfer.</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

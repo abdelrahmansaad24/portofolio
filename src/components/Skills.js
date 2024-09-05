@@ -35,23 +35,51 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>I excel in Adobe Creative Suite (Photoshop, Illustrator, InDesign), Figma, and Sketch, enabling me to create compelling visuals and user-friendly designs. My expertise spans branding, web design, illustration, and motion graphics. I am adept at concept development, color theory, and typography, ensuring each project is both aesthetically pleasing and strategically effective. My strong attention to detail and commitment to quality drive me to deliver impactful and innovative designs that resonate with audiences.</p>
+                        <p>With a solid foundation in software development and a diverse skill set acquired over the past five years, I bring a wealth of knowledge and experience to any project. My journey began in Alexandria, Egypt, where I honed my abilities in various programming languages, developer tools, and technologies.
+
+                            Languages: Proficient in Python, Java, C/C++, HTML/CSS, JavaScript, SQL, and Dart, I am equipped to tackle a wide range of programming challenges.
+
+                            Developer Tools: I am adept at using industry-standard tools such as VS Code, IntelliJ, Android Studio, and CLion, ensuring efficient and effective development workflows.
+
+                            Technologies/Frameworks: My expertise extends to working with Linux, Node.js, Spring Boot, React, Angular, Flutter, GitHub, and JUnit, enabling me to build robust and scalable applications.
+
+                            Coursework: My academic background includes comprehensive coursework in Object-Oriented Programming (OOP), Data Structures, Software Methodology, Algorithms Analysis, Database Management, Artificial Intelligence, and Computer Architecture, providing a strong theoretical foundation to complement my practical skills.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <img src={meter3} alt="Image" />
+                                <h5>flutter</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <img src={meter1} alt="Image" />
+                                <h5>Java</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
                                 <h5>Logo Design</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter2} alt="Image" />
                                 <h5>Web Development</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Image" />
+                                <h5>Node JS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>Spring boot</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="Image" />
+                                <h5>Angular</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="Image" />
+                                <h5>React JS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>OOP</h5>
                             </div>
                         </Carousel>
                     </div>
