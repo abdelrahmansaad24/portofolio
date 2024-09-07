@@ -3,7 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../assets/img/Screenshot 2024-09-04 192530.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/untitled.svg';
+import navIcon3 from '../assets/img/Github (2).png';
 import { HashLink } from 'react-router-hash-link';
 import {
     BrowserRouter as Router,Routes, Route , useNavigate
