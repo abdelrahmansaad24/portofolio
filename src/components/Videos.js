@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Col, Modal, Button } from "react-bootstrap";
 import ReactPlayer from "react-player";
 
-export const VideosCard = ({ title, description, imgUrl, url }) => {
+export const VideosCard = ({ title, description, imgUrl, path }) => {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     const handleOpenModal = () => {
@@ -25,12 +25,12 @@ export const VideosCard = ({ title, description, imgUrl, url }) => {
             </Col>
 
             <Modal show={isModalOpen} onHide={handleCloseModal} size="lg" centered>
-                <Modal.Header className="modal-body-bg" closeButton>
+                <Modal.Header className="modal-body-bg" >
                     <Modal.Title>{title}</Modal.Title>
                 </Modal.Header>
                 <Modal.Body className="modal-body-bg">
                     <ReactPlayer
-                        url={url}
+                        url={path}
                         playing={true}
                         controls={true}
                         width="100%"

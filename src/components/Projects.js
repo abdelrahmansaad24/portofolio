@@ -107,12 +107,20 @@ export const Projects = () => {
                       <Row>
                         {
                           react.map((project, index) => {
-                            return (
-                                <ProjectCard
-                                    key={index}
-                                    {...project}
-                                />
-                            )
+                            if (project.video){
+                              return (
+                                  <VideosCard
+                                      key={index}
+                                      {...project}
+                                  />
+                              )}
+                            else {
+                              return (
+                                  <ProjectCard
+                                      key={index}
+                                      {...project}
+                                  />
+                              )}
                           })
                         }
                       </Row>
@@ -121,12 +129,20 @@ export const Projects = () => {
                       <Row>
                       {
                         android.map((project, index) => {
-                          return (
-                              <ProjectCard
-                                  key={index}
-                                  {...project}
-                              />
-                          )
+                          if (project.video){
+                            return (
+                                <VideosCard
+                                    key={index}
+                                    {...project}
+                                />
+                            )}
+                          else {
+                            return (
+                                <ProjectCard
+                                    key={index}
+                                    {...project}
+                                />
+                            )}
                         })
                       }</Row>
                     </Tab.Pane>
@@ -134,14 +150,22 @@ export const Projects = () => {
                       <Row>
                         {
                           angular.map((project, index) => {
-                            return (
-                                <ProjectCard
-                                    key={index}
-                                    {...project}
-                                />
-                            )
-                          })
-                        }</Row>
+                            if (project.video){
+                              return (
+                                  <VideosCard
+                                      key={index}
+                                      {...project}
+                                  />
+                              )}
+                            else {
+                              return (
+                                    <ProjectCard
+                                        key={index}
+                                        {...project}
+                                    />
+                                )}
+                            })}
+                        </Row>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

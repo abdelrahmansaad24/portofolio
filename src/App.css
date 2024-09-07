@@ -245,6 +245,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.navigation-arrows{
+  background-image: url('./assets/img/banner-bg.png');
+}
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
