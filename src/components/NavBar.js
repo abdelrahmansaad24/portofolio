@@ -75,9 +75,9 @@ export const NavBar = () => {
                         </Nav>
                         <span className="navbar-text">
               <div className="social-icon">
-                <a><img src={navIcon1} alt="" onClick={handleL}/></a>
-                <a><img src={navIcon2} alt="" onClick={handleF}/></a>
-                <a><img src={navIcon3} alt="" onClick={handleG}/></a>
+                <a onClick={handleL}><img src={navIcon1} alt="" /></a>
+                <a onClick={handleF}><img src={navIcon2} alt="" /></a>
+                <a onClick={handleG}><img src={navIcon3} alt="" /></a>
               </div>
               <HashLink to='#connect' onClick={handleW}>
                 <button className="vvd"><span>Let’s Connect</span></button>

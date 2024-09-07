@@ -2,13 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getStorage, ref, listAll, getDownloadURL } from "firebase/storage";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyC2bCAXR1UjNjysVKlR2-C_bYeQJveQ0g4",
-    authDomain: "takoo-f533d.firebaseapp.com",
-    projectId: "takoo-f533d",
-    storageBucket: "takoo-f533d.appspot.com",
-    messagingSenderId: "234089679091",
-    appId: "1:234089679091:web:91253bd2e6815a6dc5cf86",
-    measurementId: "G-MVHC0CCRYT"
+    apiKey: "AIzaSyAJyA0WzqWpo5JC7cn7keI5XL1EWyKIvBs",
+    authDomain: "portfolio-77dbd.firebaseapp.com",
+    projectId: "portfolio-77dbd",
+    storageBucket: "portfolio-77dbd.appspot.com",
+    messagingSenderId: "128096349667",
+    appId: "1:128096349667:web:b0d0304db08a8fa6dc44d6"
 };
 
 // Initialize Firebase
