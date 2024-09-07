@@ -63,7 +63,7 @@ export const Projects = () => {
     const fetchProjectsData = async () => {
       try {
         const response = await fetch(
-            'https://docs.google.com/document/d/1lO6Aq_7jnjBF-1WcT0yilTfsMKlHJCsXqyG8HgRW860/edit?usp=sharing'
+            "https://docs.google.com/document/d/1lO6Aq_7jnjBF-1WcT0yilTfsMKlHJCsXqyG8HgRW860/export?format=txt"
         );
         const text = await response.text();
 
