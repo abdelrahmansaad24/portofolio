@@ -63,9 +63,10 @@ const ImagesSlider = ({title, handleClose, isModalOpen, path, footerHeight }) =>
 
 const styles = {
     modal: {
-        maxWidth: '80vw',  // Set modal width to 80% of the viewport width
+        maxWidth: '120vw',  // Set modal width to 80% of the viewport width
         maxHeight: '80vh', // Set modal height (adjusted dynamically)
-        top: '5vh',       // Move the modal down by 10% of the viewport height
+        top: '5vh',  
+        left: '10vh'// Move the modal down by 10% of the viewport height
     },
     modalBody: {
         padding: 0, // Remove extra padding from the modal body
